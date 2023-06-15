@@ -9,19 +9,20 @@ function App() {
   return (
     <>
       <h1>App</h1>
+      <p>Tab UI</p>
       <div className="tab-ui">
         <div className="tab-group">
           <a 
-            style={ tab === 0 ? {color: 'red'} : null }
+            style={ tab === 0 ? {color: 'white', background: 'black'} : null }
             href="#tab1" 
             onClick={ ()=> setTab(0) }>HTML</a>
           <a 
-            style={ tab === 1 ? {color: 'red'} : null }
+            style={ tab === 1 ? {color: 'white', background: 'black'} : null }
             href="#tab2"
             onClick={ ()=> setTab(1) }
           >CSS</a>
           <a 
-            style={ tab === 2 ? {color: 'red'} : null }
+            style={ tab === 2 ? {color: 'white', background: 'black'} : null }
             href="#tab3"
             onClick={ ()=> setTab(2) }
           >JavaScript</a>
